@@ -1,0 +1,37 @@
+Siege Lines
+https://rosario.github.io/siege-lines/
+
+Siege Lines is a tower defence built on Battle Drones by Simon Willison
+(https://github.com/simonw/battledrones), used under the Apache License,
+Version 2.0. A copy of the licence is in LICENSE.
+
+Siege Lines' source holds all of Battle Drones (its own README is
+README.md), with Siege Lines added on top.
+
+Added for Siege Lines:
+  siege.html, vite.siege.config.ts, TOWER-DEFENCE.md, PUBLISHING.md, NOTICE,
+  .github/README.md, .github/workflows/publish.yml (publishes Siege Lines)
+  src/siege/
+  src/sim/modes/siege.ts, src/sim/siege-levels.ts, src/sim/siege-maps.ts,
+  src/sim/siege-pilot.ts
+  tests/siege.test.ts, tests/siege-pilot.ts
+  tools/siege-balance.ts, tools/siege-input-check.mjs, tools/siege-maps-shots.mjs,
+  tools/siege-shots.mjs, tools/siege-share-image.mjs
+
+Battle Drones files changed for Siege Lines (the source files say so in
+their first line):
+  src/sim/types.ts, src/sim/sim.ts, src/sim/combat.ts, src/sim/movement.ts,
+  src/sim/infantry.ts, src/sim/powers.ts, src/sim/salvage.ts
+  src/versus/codec.ts
+  src/game/render/entities.ts, src/game/three/screen.ts
+  README.md (a section on Siege Lines)
+  package.json, package-lock.json (Siege Lines' scripts and its two fonts)
+  .gitignore (Siege Lines' build output)
+
+Battle Drones files removed for Siege Lines:
+  .github/workflows/pages.yml (publishes Battle Drones' own site)
+
+Other software in the Siege Lines build:
+  three.js, MIT License
+  Big Shoulders Stencil Display and Chakra Petch, SIL Open Font License 1.1
+The build carries every licence in its licenses/ folder.
