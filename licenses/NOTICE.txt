@@ -30,6 +30,7 @@ their first line):
 
 Battle Drones files removed for Siege Lines:
   .github/workflows/pages.yml (publishes Battle Drones' own site)
+  .github/workflows/test.yml (Battle Drones' CI tests)
 
 Other software in the Siege Lines build:
   three.js, MIT License
